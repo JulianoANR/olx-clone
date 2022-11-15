@@ -20,7 +20,7 @@ const Page = () => {
     const [disabled, setDisabled] = useState(false);
     const [error, setError] = useState('');
     const [stateList, setStateList] = useState([]);
-    const [anuncioList, setAnuncioList] = useState(['teste', 'teste']);
+    const [anuncioList, setAnuncioList] = useState([]);
 
     const getUser = async () => {
         const user = await api.getUser();

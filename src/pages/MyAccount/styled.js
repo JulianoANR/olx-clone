@@ -58,7 +58,7 @@ export const PageArea = styled.div`
         }
     }
 
-    .cards {
+    .cards-anuncio {
         background-color: #FFF;
         border-radius: 5px;
         padding: 10px;
@@ -75,24 +75,19 @@ export const PageArea = styled.div`
     }
 
     .area-anuncio {
-        display: block;
-        /* align-items: center;
-        padding: 10px;
-        max-width: 500px; */
+        .area--text-anuncio {
+            text-align: right;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 12px;
+        }
 
         .area--title-anuncio {
-            text-align: right;
             padding-right: 20px;
             padding-left: 20px;
             font-weight: bold;
             font-size: 14px;
-        }
-
-        .area--text-anuncio {
             text-align: right;
-            padding-right: 20px;
-            padding-left: 20px;
-            font-size: 12px;
         }
     }
 `  
