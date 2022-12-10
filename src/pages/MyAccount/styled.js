@@ -75,11 +75,6 @@ export const PageArea = styled.div`
     }
 
     .area-anuncio {
-        display: block;
-        /* align-items: center;
-        padding: 10px;
-        max-width: 500px; */
-
         .area--title-anuncio {
             text-align: right;
             padding-right: 20px;
